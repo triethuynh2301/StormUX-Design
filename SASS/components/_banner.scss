@@ -1,0 +1,17 @@
+.banner {
+  background-color: #000000;
+  .banner-content {
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+
+    .banner-logo {
+      max-width: 70%;
+      height: auto;
+    }
+
+    .banner-menu {
+      margin-left: auto;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.intro-1 {
+  position: relative;
+
+  &__photo {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__text-content {
+    color: white;
+  }
+}

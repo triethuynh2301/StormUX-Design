@@ -133,6 +133,16 @@ table {
   border-spacing: 0;
 }
 
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -144,12 +154,6 @@ body {
 
 .icon-cog {
   color: white;
-}
-
-.overlay-text-block {
-  position: absolute;
-  bottom: 2em;
-  padding: 2em;
 }
 
 .banner {
@@ -173,13 +177,18 @@ body {
 
 .intro-1 {
   position: relative;
-}
-
-.intro-1__photo {
-  max-width: 100%;
-  height: auto;
+  background-image: url("../../Image/create.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 300px 1.5em 100px;
+  width: auto;
 }
 
 .intro-1__text-content {
   color: white;
+}
+
+.intro-1__text-content__slogan--emphasized {
+  font-weight: bold;
 }

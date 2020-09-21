@@ -1,12 +1,22 @@
 .intro-1 {
   position: relative;
+  background-image: url("../../Image/create.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 300px 1.5em 100px;
 
-  &__photo {
-    max-width: 100%;
-    height: auto;
-  }
+  width: auto;
+  // &__photo {
+  //   max-width: 100%;
+  //   height: auto;
+  // }
 
   &__text-content {
     color: white;
+
+    &__slogan--emphasized {
+      font-weight: bold;
+    }
   }
 }

@@ -1,22 +1,53 @@
 .intro-1 {
+  display: flex;
   position: relative;
   background-image: url("../../Image/create.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 300px 1.5em 100px;
-
+  padding: 300px 1.5em 80px;
   width: auto;
-  // &__photo {
-  //   max-width: 100%;
-  //   height: auto;
-  // }
 
   &__text-content {
     color: white;
 
+    &__slogan {
+      font-size: 2rem;
+    }
+
     &__slogan--emphasized {
       font-weight: bold;
+    }
+
+    &__services {
+      padding-top: 1.5em;
+      color: #ffcc40;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .intro-1 {
+    justify-content: flex-start;
+    padding: 10em 1em 4em 4em;
+
+    &__text-content {
+      flex-basis: 40%;
+
+      &__slogan {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .intro-1 {
+    justify-content: flex-start;
+    padding: 15em 1em 10em 15em;
+
+    &__text-content {
+      flex-basis: 40%;
     }
   }
 }

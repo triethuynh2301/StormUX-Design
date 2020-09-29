@@ -1,4 +1,6 @@
-.intro-1 {
+//SECTION: .main-headline
+//**********************************
+.main-headline {
   display: flex;
   position: relative;
   background-image: url("../../Image/create.jpg");
@@ -12,7 +14,7 @@
     color: white;
 
     &__slogan {
-      font-size: 2rem;
+      font-size: $main-headline-intro-text-size;
     }
 
     &__slogan--emphasized {
@@ -27,7 +29,7 @@
 }
 
 @media (min-width: 768px) {
-  .intro-1 {
+  .main-headline {
     justify-content: flex-start;
     padding: 10em 1em 4em 4em;
 
@@ -42,7 +44,7 @@
 }
 
 @media (min-width: 992px) {
-  .intro-1 {
+  .main-headline {
     justify-content: flex-start;
     padding: 15em 1em 10em 15em;
 
@@ -51,3 +53,24 @@
     }
   }
 }
+//**********************************
+//SECTION: .main-headline
+
+//SECTION: .secondary-headline
+//**********************************
+.secondary-headline {
+  font-size: $secondary-headline-intro-text-size;
+
+  &__main-intro {
+    background-color: $secondary-headline-background-intro-color;
+    padding: 1.5em 1em;
+    text-transform: uppercase;
+
+    &--emphasized {
+      font-weight: bolder;
+      color: black;
+    }
+  }
+}
+//**********************************
+//SECTION: .secondary-headline

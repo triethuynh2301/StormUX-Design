@@ -175,7 +175,7 @@ body {
   margin-left: auto;
 }
 
-.intro-1 {
+.main-headline {
   display: flex;
   position: relative;
   background-image: url("../../Image/create.jpg");
@@ -186,42 +186,57 @@ body {
   width: auto;
 }
 
-.intro-1__text-content {
+.main-headline__text-content {
   color: white;
 }
 
-.intro-1__text-content__slogan {
-  font-size: 2rem;
+.main-headline__text-content__slogan {
+  font-size: 2.5rem;
 }
 
-.intro-1__text-content__slogan--emphasized {
+.main-headline__text-content__slogan--emphasized {
   font-weight: bold;
 }
 
-.intro-1__text-content__services {
+.main-headline__text-content__services {
   padding-top: 1.5em;
   color: #ffcc40;
 }
 
 @media (min-width: 768px) {
-  .intro-1 {
+  .main-headline {
     justify-content: flex-start;
     padding: 10em 1em 4em 4em;
   }
-  .intro-1__text-content {
+  .main-headline__text-content {
     flex-basis: 40%;
   }
-  .intro-1__text-content__slogan {
+  .main-headline__text-content__slogan {
     font-size: 3rem;
   }
 }
 
 @media (min-width: 992px) {
-  .intro-1 {
+  .main-headline {
     justify-content: flex-start;
     padding: 15em 1em 10em 15em;
   }
-  .intro-1__text-content {
+  .main-headline__text-content {
     flex-basis: 40%;
   }
+}
+
+.secondary-headline {
+  font-size: 1.3rem;
+}
+
+.secondary-headline__main-intro {
+  background-color: #ff7f3d;
+  padding: 1.5em 1em;
+  text-transform: uppercase;
+}
+
+.secondary-headline__main-intro--emphasized {
+  font-weight: bolder;
+  color: black;
 }

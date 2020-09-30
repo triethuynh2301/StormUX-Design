@@ -60,16 +60,35 @@
 //**********************************
 .secondary-headline {
   font-size: $secondary-headline-intro-text-size;
+  background-color: $secondary-headline-background-intro-color;
 
   &__main-intro {
-    background-color: $secondary-headline-background-intro-color;
     padding: 1.5em 1em;
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
 
     &--emphasized {
-      font-weight: bolder;
-      color: black;
+      font-weight: bold;
     }
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__secondary-intro {
+    padding: 1.5em 1em;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  &__secondary-text {
+    padding: 0 1em;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 2em;
   }
 }
 //**********************************

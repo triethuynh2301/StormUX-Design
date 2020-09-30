@@ -228,15 +228,34 @@ body {
 
 .secondary-headline {
   font-size: 1.3rem;
+  background-color: #ff7f3d;
 }
 
 .secondary-headline__main-intro {
-  background-color: #ff7f3d;
   padding: 1.5em 1em;
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
 }
 
 .secondary-headline__main-intro--emphasized {
-  font-weight: bolder;
-  color: black;
+  font-weight: bold;
+}
+
+.secondary-headline__img {
+  width: 100%;
+  height: auto;
+}
+
+.secondary-headline__secondary-intro {
+  padding: 1.5em 1em;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.secondary-headline__secondary-text {
+  padding: 0 1em;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 2em;
 }

@@ -1,0 +1,19 @@
+.image-gallery {
+  display: grid;
+
+  &__title {
+    font-family: "Roboto", sans-serif;
+    font-size: $main-headline-intro-text-size;
+    text-align: center;
+    padding: 1em;
+    text-transform: uppercase;
+    color: $gray-color;
+  }
+
+  .media {
+    &__image {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

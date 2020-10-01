@@ -157,7 +157,7 @@ body {
 }
 
 .banner {
-  background-color: #000000;
+  background-color: #7d7d7d;
 }
 
 .banner .banner-content {
@@ -232,9 +232,9 @@ body {
 }
 
 .secondary-headline__main-intro {
+  font-family: "Roboto", sans-serif;
   padding: 1.5em 1em;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -248,14 +248,63 @@ body {
 }
 
 .secondary-headline__secondary-intro {
-  padding: 1.5em 1em;
+  font-family: "Roboto", sans-serif;
+  padding: 1.5em;
   font-size: 1.4rem;
   font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .secondary-headline__secondary-text {
-  padding: 0 1em;
-  font-size: 1rem;
+  padding: 0 1em 2em;
+  font-size: 0.85rem;
+  line-height: 1.4em;
   color: white;
-  margin-bottom: 2em;
+}
+
+.secondary-headline__secondary-text--emphasized {
+  font-weight: bold;
+}
+
+.secondary-headline__button {
+  background-color: #ff7f3d;
+  border: 1px solid black;
+  padding: 1em;
+  margin-bottom: 6em;
+  font-size: 1rem;
+}
+
+.secondary-headline__button:first-of-type {
+  margin-left: 2em;
+}
+
+.secondary-headline__button:nth-of-type(2) {
+  margin-left: 0.5em;
+}
+
+.image-gallery {
+  display: grid;
+}
+
+.image-gallery__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1em;
+  text-transform: uppercase;
+  color: #7d7d7d;
+}
+
+.image-gallery .media__image {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-image: url(../../Image/9.jpg);
+}
+
+.footer .ft-item {
+  color: #ffcc40;
 }

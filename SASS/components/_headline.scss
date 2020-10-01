@@ -23,7 +23,7 @@
 
     &__services {
       padding-top: 1.5em;
-      color: #ffcc40;
+      color: $brand-yellow;
     }
   }
 }
@@ -63,9 +63,9 @@
   background-color: $secondary-headline-background-intro-color;
 
   &__main-intro {
+    font-family: "Roboto", sans-serif;
     padding: 1.5em 1em;
     text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
 
     &--emphasized {
@@ -79,16 +79,39 @@
   }
 
   &__secondary-intro {
-    padding: 1.5em 1em;
+    font-family: "Roboto", sans-serif;
+    padding: 1.5em;
     font-size: 1.4rem;
     font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
   }
 
   &__secondary-text {
-    padding: 0 1em;
-    font-size: 1rem;
+    padding: 0 1em 2em;
+    font-size: 0.85rem;
+    line-height: 1.4em;
     color: white;
-    margin-bottom: 2em;
+
+    &--emphasized {
+      font-weight: bold;
+    }
+  }
+
+  &__button {
+    background-color: $secondary-headline-background-intro-color;
+    border: 1px solid black;
+    padding: 1em;
+    margin-bottom: 6em;
+    font-size: 1rem;
+
+    &:first-of-type {
+      margin-left: 2em;
+    }
+
+    &:nth-of-type(2) {
+      margin-left: 0.5em;
+    }
   }
 }
 //**********************************

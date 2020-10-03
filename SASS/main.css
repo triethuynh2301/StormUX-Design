@@ -285,6 +285,7 @@ body {
 
 .image-gallery {
   display: grid;
+  gap: 0;
 }
 
 .image-gallery__title {
@@ -296,6 +297,10 @@ body {
   color: #7d7d7d;
 }
 
+.image-gallery .media {
+  margin: 0;
+}
+
 .image-gallery .media__image {
   width: 100%;
   height: auto;
@@ -303,6 +308,7 @@ body {
 
 .footer {
   background-image: url(../../Image/9.jpg);
+  padding-top: 2em;
 }
 
 .footer .ft-item {

@@ -1,11 +1,35 @@
 .footer {
   background-image: url(../../Image/9.jpg);
-  padding-top: 2em;
+  background-size: cover;
+  padding: 2em 1em;
+
+  > * + * {
+    margin-top: 2em;
+  }
 
   .ft-item {
     color: $brand-yellow;
 
     &__title {
+      font-size: 1.5rem;
+      padding: 1em 0;
+      color: white;
     }
+
+    &__list {
+      line-height: 1.5rem;
+
+      &__item--social {
+        * + * {
+          padding-left: 0.5em;
+        }
+      }
+    }
+  }
+
+  .ft-copyright {
+    color: $brand-yellow;
+    text-align: center;
+    padding-top: 4.5em;
   }
 }

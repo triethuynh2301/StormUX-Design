@@ -229,6 +229,7 @@ body {
 .secondary-headline {
   font-size: 1.3rem;
   background-color: #ff7f3d;
+  display: flex;
 }
 
 .secondary-headline__main-intro {
@@ -308,9 +309,34 @@ body {
 
 .footer {
   background-image: url(../../Image/9.jpg);
-  padding-top: 2em;
+  background-size: cover;
+  padding: 2em 1em;
+}
+
+.footer > * + * {
+  margin-top: 2em;
 }
 
 .footer .ft-item {
   color: #ffcc40;
+}
+
+.footer .ft-item__title {
+  font-size: 1.5rem;
+  padding: 1em 0;
+  color: white;
+}
+
+.footer .ft-item__list {
+  line-height: 1.5rem;
+}
+
+.footer .ft-item__list__item--social * + * {
+  padding-left: 0.5em;
+}
+
+.footer .ft-copyright {
+  color: #ffcc40;
+  text-align: center;
+  padding-top: 4.5em;
 }

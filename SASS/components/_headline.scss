@@ -60,7 +60,8 @@
 //**********************************
 .secondary-headline {
   font-size: $secondary-headline-intro-text-size;
-  background-color: $secondary-headline-background-intro-color;
+  background-color: $main-orange;
+  display: flex;
 
   &__main-intro {
     font-family: "Roboto", sans-serif;
@@ -99,7 +100,7 @@
   }
 
   &__button {
-    background-color: $secondary-headline-background-intro-color;
+    background-color: $main-orange;
     border: 1px solid black;
     padding: 1em;
     margin-bottom: 6em;

@@ -191,7 +191,19 @@ body {
 }
 
 .main-headline__text-content__slogan {
-  font-size: 2.5rem;
+  font-size: 6vw;
+}
+
+@media (max-width: 833.33333px) {
+  .main-headline__text-content__slogan {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 583.33333px) {
+  .main-headline__text-content__slogan {
+    font-size: 35px;
+  }
 }
 
 .main-headline__text-content__slogan--emphasized {
@@ -201,6 +213,19 @@ body {
 .main-headline__text-content__services {
   padding-top: 1.5em;
   color: #ffcc40;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 1200px) {
+  .main-headline__text-content__services {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 2333.33333px) {
+  .main-headline__text-content__services {
+    font-size: 35px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -216,7 +241,7 @@ body {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .main-headline {
     justify-content: flex-start;
     padding: 15em 1em 10em 15em;
@@ -228,6 +253,7 @@ body {
 
 .secondary-headline {
   font-size: 1.3rem;
+  background-color: #ffcc40;
 }
 
 .secondary-headline__main-intro {
@@ -236,18 +262,17 @@ body {
   text-transform: uppercase;
   font-size: 35px;
   font-size: 3vw;
-  background-color: #ffcc40;
 }
 
-@media (max-width: 666.66667px) {
+@media (max-width: 1000px) {
   .secondary-headline__main-intro {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
-@media (min-width: 1833.33333px) {
+@media (min-width: 2666.66667px) {
   .secondary-headline__main-intro {
-    font-size: 55px;
+    font-size: 80px;
   }
 }
 
@@ -279,15 +304,41 @@ body {
 .secondary-headline__secondary-intro {
   font-family: "Roboto", sans-serif;
   padding: 1.5em;
+  font-size: 2vw;
   font-weight: 600;
   text-transform: capitalize;
   text-align: center;
 }
 
+@media (max-width: 1200px) {
+  .secondary-headline__secondary-intro {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1750px) {
+  .secondary-headline__secondary-intro {
+    font-size: 35px;
+  }
+}
+
 .secondary-headline__secondary-text {
   padding: 0 1em 2em;
+  font-size: 1.5vw;
   line-height: 1.4em;
   color: white;
+}
+
+@media (max-width: 1200px) {
+  .secondary-headline__secondary-text {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 2333.33333px) {
+  .secondary-headline__secondary-text {
+    font-size: 35px;
+  }
 }
 
 .secondary-headline__secondary-text--emphasized {
